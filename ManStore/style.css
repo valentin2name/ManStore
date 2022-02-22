@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* HEADER ONE */
+
+.container__one {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+
+.inner__one {
+    width: 100%;
+    max-width: 1109px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.complex__phone {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo__p {
+    padding-right: 15px;
+}
+
+
+.number__p, .work__g, .time__g {
+    font-size: 12px;
+    font-weight: 400;
+    color: #C4C4C4;
+    text-decoration: none;
+
+    padding-right: 15px;
+}
+
+
+
+.complex__exit {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo__e {
+    padding-right: 15px;
+}
+
+
+.text__e {
+    font-size: 12px;
+    font-weight: 400;
+    color: #C4C4C4;
+    text-decoration: none;
+
+    padding-right: 3px;
+}
+
+
+
+/* HEADER TWO */
+
+
+.container__two {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 80px;
+
+    background-color: #1F1F1F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner__two {
+    width: 100%;
+    max-width: 1109px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.complex__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text__main {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding-right: 40px;
+}
+
+
+.text__main:last-child {
+    padding-right: 60px;
+}
+
+
+.logo__main {
+    padding-right: 40px;
+}
+
+.logo__main:last-child {
+    padding-right: 0px;
+}
+
+
+
+/* INTRO */
+
+
+.container__intro {
+    width: 100%;
+    max-width: 1920px;
+    height: 810px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: url("img/introbg.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.inner__intro {
+    width: 100%;
+    max-width: 730px;
+}
+
+
+.intro__logo {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro__text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 154px;
+}
+
+
+
+
+
+/* COLLECTION */
+
+.coll {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+}
+
+
+.coll__left {
+    width: 40%;
+}
+
+
+.left__img {
+    width: 540px;
+    height: 100%;
+
+
+    background-size: cover;
+}
+
+
+
+.coll__right {
+    width: 60%;
+}
+
+
+.title__right {
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+.bor__right {
+    width: 110px;
+    border: solid 1px white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+.text__right {
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.box__coll {
+    width: 280px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+
+.coll__kn {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+/* NEW */
+
+
+.container__new {
+    width: 100%;
+    max-width: 1920px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner__new {
+    width: 100%;
+    max-width: 1109px;
+}
+
+
+.title__new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    margin-top: 120px;
+}
+
+.bor__new {
+    width: 110px;
+    border: solid 1px white;
+    margin: 0 auto;
+}
+
+
+.complex__new {
+    margin-top: 121px;
+}
+
+
+.new__one {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+
+.new__two {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 150px;
+}
+
+
+
+/* OUR BRANDS */
+
+
+.container__brands {
+    width: 100%;
+    max-width: 1920px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+}
+
+
+.inner__brands {
+    width: 100%;
+    max-width: 1109px;
+}
+
+
+
+.title__brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.bor__br {
+    width: 110px;
+    border: solid 1px white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+
+
+.complex__brands {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+
+
+/* ABOUT SHOP */
+
+.container__shop {
+    width: 100%;
+    max-width: 1920px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: url("img/footerbg.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.inner__shop {
+    width: 100%;
+    max-width: 1109px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about__shop {
+    padding-right: 31px;
+}
+
+
+.title__shop {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin-top: 80px;
+}
+
+
+.text__shop {
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 101px;
+}
+
+
+
+.title__spam {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin-top: 80px;
+}
+
+
+.text__spam {
+    font-size: 14px;
+    font-weight: 400;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.complex__spam {
+    display: flex;
+}
+
+
+.shop__m {
+    background-color: #FFFFFF;
+    opacity: 40%;
+}
+
+
+.btn {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-color: #0F0F0F;
+}
+
+
+/* FOOTER */
+
+.foot {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__foot {
+    width: 100%;
+    max-width: 1109px;
+}
+
+
+.content__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text__foot {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
+
+
